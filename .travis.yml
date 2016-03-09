@@ -19,6 +19,3 @@ install:
   - cd byond
   - sudo make install
   - cd ..
-
-script:
-  - bash dm.sh -M${DM_MAPFILE} goonstation.dme
