@@ -3,7 +3,7 @@ SERVER_SPECIFIC_CONFIGS
 # log OOC channel
 LOG_OOC
 
-# log client Say 
+# log client Say
 LOG_SAY
 
 # log admin actions
@@ -19,7 +19,7 @@ LOG_GAME
 LOG_VOTE
 
 # probablities for game modes chosen in "secret" and "random" modes
-# 
+#
 # default probablity is 1, increase to make that mode more likely to be picked
 # set to 0 to disable that mode
 PROBABILITY ALIEN 0
@@ -68,14 +68,16 @@ ALLOW_AI
 NORESPAWN
 
 # set a hosted by name for unix platforms
-HOSTEDBY Galactic Order of Oppressive Neckbeards
+HOSTEDBY :^)
 
 # name
-#SERVERNAME Gibbed
-SERVERNAME LLJK
+#SERVERNAME WIP
+SERVERNAME WIP
 SERVERSUFFIX
-SERVERREGION US
+SERVERREGION local
 
+# dev/prod/
 ENV prod
 
-CDN http://cdn.goonhub.com
+#CDN http://cdn.goonhub.com
+CDN http://127.0.0.1
