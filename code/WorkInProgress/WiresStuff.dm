@@ -75,7 +75,8 @@
 
 	if (centralConn)
 
-		var/uri = "http://goonhub.com/ss13" //TODO: Config option
+//	var/uri = "http://goonhub.com/ss13" //TODO: rip goonhub
+		var/uri = "http://127.0.0.1/ss13" //TODO: Config option
 		var/req = "[uri]/[route]/?[query ? "[list2params(query)]&" : ""]" //Necessary
 		req += "[forceResponse ? "bypass=1&" : ""]" //Force a response RIGHT NOW y/n
 		req += "data_server=[(world.port % 1000) / 100]&" //Append server number

@@ -22,7 +22,8 @@ module.exports = function (grunt) {
     dist: 'build'
   };
 
-  var cdn = 'http://cdn.goonhub.com';
+//  var cdn = 'http://cdn.goonhub.com';
+  var cdn = 'http://127.0.0.1';
 
   // Define the configuration for all the tasks
   grunt.initConfig({
