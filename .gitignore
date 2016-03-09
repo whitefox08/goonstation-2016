@@ -1,0 +1,13 @@
+**/*.sav
+**/*.ban
+**/*.db
+**/*.log
+**/*.old
+data/mode.txt
+data/stats/data.txt
+data/resources/browserassets/css/**
+data/resources/browserassets/js/**
+goonstation.dmb
+goonstation.dyn.rsc
+goonstation.int
+goonstation.rsc
