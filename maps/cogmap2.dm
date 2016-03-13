@@ -16,8 +16,6 @@ z7 = empty space
 #if !defined(MAP_FILE)
 
         #include "map\cogmap2.dmm"
-        #include "map\z2.dmm"
-        #include "map\z3.dmm"
 
         #define MAP_FILE "cogmap2.dmm"
         #define MAP_NAME "cogmap2"
